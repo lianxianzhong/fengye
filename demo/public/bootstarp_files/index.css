@@ -1,0 +1,281 @@
+/************************通用样式*********************/
+i{
+    font-size: 12px;
+    color: #ccc
+}
+.btn-register { 
+    color: #ffffff; 
+    background-color: #0AB4F7; 
+    border-color: #FFFFFF; 
+  } 
+  .col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+      padding-right: 0;
+      padding-left:0 ;
+  }
+  .btn-register:hover, 
+  .btn-register:focus, 
+  .btn-register:active, 
+  .btn-register.active, 
+  .open .dropdown-toggle.btn-register { 
+    color: #ffffff; 
+    background-color: #086DF2; 
+    border-color: #FFFFFF; 
+  } 
+   
+  .btn-register:active, 
+  .btn-register.active, 
+  .open .dropdown-toggle.btn-register { 
+    background-image: none; 
+  } 
+   
+  .btn-register.disabled, 
+  .btn-register[disabled], 
+  fieldset[disabled] .btn-register, 
+  .btn-register.disabled:hover, 
+  .btn-register[disabled]:hover, 
+  fieldset[disabled] .btn-register:hover, 
+  .btn-register.disabled:focus, 
+  .btn-register[disabled]:focus, 
+  fieldset[disabled] .btn-register:focus, 
+  .btn-register.disabled:active, 
+  .btn-register[disabled]:active, 
+  fieldset[disabled] .btn-register:active, 
+  .btn-register.disabled.active, 
+  .btn-register[disabled].active, 
+  fieldset[disabled] .btn-register.active { 
+    background-color: #0AB4F7; 
+    border-color: #FFFFFF; 
+  } 
+   
+  .btn-register .badge { 
+    color: #0AB4F7; 
+    background-color: #ffffff; 
+  }
+
+#lk_about,#lk_hot ,#lk_link{
+    padding: 20px 0;
+}
+#lk_about .title,#lk_hot .title,#lk_link .title{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center; 
+}
+/************************通用样式*********************/
+/************************头部样式*********************/
+/*头部bar*/
+#lk_header{
+
+}
+#lk_header .lk_top-bar{
+    height: 40px;
+    line-height: 39px;
+    margin: 0 auto;
+    border-bottom: 1px #e0e0e0 solid;
+}
+#lk_header .lk_top-bar .top-bar1,.top-bar2,.top-bar3,.top-bar4{
+    border-left:  1px #e0e0e0 solid;
+    height: 40px;
+}
+#lk_header .lk_top-bar .top-bar1{
+    border: none;
+}
+#lk_header .lk_top-bar .top-bar1 a{
+    position: relative;
+}
+#lk_header .lk_top-bar .top-bar1 a:hover img{
+    display: block;
+}
+#lk_header .lk_top-bar .top-bar1 a img{
+    width: 130px;
+    height: 130px;
+    position: absolute;
+    left: 50%;
+    margin-left: -120px;
+    top: 5px;
+    display: none;
+    z-index: 9999;
+}
+/*导航条*/
+#lk_header .nav-lk{
+    background: #FFFFFF;
+}
+#lk_header .navbar{
+    margin-bottom: 0;
+}
+#lk_header .nav-lk .navbar-toggle{
+    margin-top: 18px;
+}
+#lk_header .nav-lk .navbar-brand{
+    height: 70px;
+}
+#lk_header .nav-lk .navbar-brand img{
+   position: relative;
+   top: -7.5px;
+}
+#lk_header .nav-lk .navbar-nav a{
+    height: 70px;
+    line-height: 40px;
+}
+#lk_header .nav-lk .navbar-nav .active a,
+#lk_header .nav-lk .navbar-nav li a:hover{
+    border-bottom: 2px solid #0AB4F7;
+    background: transparent;
+}
+/************************头部样式*********************/
+
+/************************焦点图样式*********************/
+#lk_carousel{
+
+}
+#lk_carousel .carousel-inner .item{
+    background: no-repeat center center;
+    background-size: cover;
+}
+
+@media screen and (min-width:800px){
+    #lk_carousel .carousel-inner .item{
+        height: 410px;
+    }
+}
+
+/************************焦点图样式*********************/
+
+/************************关于我们样式*********************/
+
+#lk_about .title img{
+    padding-bottom:15px ;
+}
+#lk_about .tbody p{
+    line-height: 29px;
+    font-size: 15px;
+}
+/************************关于我们样式*********************/
+
+/************************产品特色样式*********************/
+#lk_product{
+    padding: 30px 0;
+    background: rgb(240, 240, 240)
+} 
+#lk_product .ulParent{
+    overflow: auto;
+}
+#lk_product .tab-content{
+    padding: 20px 0;
+}
+#lk_product .nav li a{
+    font-size: 18px;
+    color: rgb(153, 153, 153)
+}
+#lk_product .nav li.active a{
+    border: none;
+    color: #000;
+    background-color: transparent;
+    border-bottom: 2px solid #0AB4F7;
+}
+#pd-one-1{
+    padding: 50px 0;
+}
+#pd-one-2{
+    margin-top: 15px;
+    background: transparent;
+}
+#pd-one-3{
+    margin-bottom: 15px;
+}
+#pd-one-4 button{
+    margin-right: 20px;
+}
+#pd-two-1{
+    padding: 80px 0;
+}
+#pd-two-1 h1{
+    padding: 10px 0;
+    color: rgb(138, 109, 59);
+}
+#pd-three-1{
+    padding: 50px 0;
+}
+#pd-three-2 span{
+    color: rgb(138, 109, 59);
+}
+#pd-three-4{
+    padding: 15px 10px
+}
+/************************产品特色样式*********************/
+
+/************************热门课程样式*********************/
+#lk_hot{
+
+}
+#lk_hot .hot{
+    padding-top: 30px;
+}
+#lk_hot .media-left{
+    width: 20%;
+    vertical-align: middle;
+}
+#lk_hot .media-body{
+    width: 60%;
+    vertical-align: middle;
+}
+#lk_hot .media-body p{
+    margin-top: 10px;
+}
+#lk_hot .media-right{
+    width: 20%;
+    vertical-align: middle;
+}
+
+/************************热门课程样式*********************/
+
+/************************友情链接样式*********************/
+#lk_link ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+#lk_link ul li{
+    /* float: left; */
+    padding: 40px 50px ;
+}
+/************************友情链接样式*********************/
+
+/************************联系我们样式*********************/
+#lk_relation{
+    height: 200px;
+    background: url("../img/ft_bg.png");
+    color: #fff;
+}
+#lk_relation ul{
+    list-style: none;
+    
+}
+#lk_relation ul a{
+    color: #fff;
+    line-height: 40px;
+}
+#lk_relation .one,#lk_relation .two,#lk_relation .three{
+    widows: 180px;
+}
+#lk_relation .one,#lk_relation .two{
+    border-right: 1px solid #666;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#lk_relation .center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#lk_relation .three{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 40px;
+}
+/************************联系我们样式*********************/
